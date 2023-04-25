@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 200px; /* Adjust this value to set the desired width */
+    height: auto; /* This will maintain the aspect ratio of the image */
+  }
+  
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.about-section {
+    text-align: center;
+}
+
+.about-heading {
+    margin-bottom: 20px;
+}
+
+/* Book summary styles */
+#Book-Summary {
+    text-align: center;
+    padding: 50px 0;
+    /* background-color: #f0f0f0; Remove or comment out this line */
+}
+
+.coffee {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 200px; /* Adjust this value to set the desired width */
+    height: auto; /* This will maintain the aspect ratio of the image */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#BOOK-NOTES {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.money {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.favorite-quotes {
+    margin-top: 20px;
+}
+
+.favorite-quotes h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.favorite-quotes ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.favorite-quotes ul li {
+    margin-bottom: 10px;
+}
+
+#BOOK-NOTES-2 {
+    display: flex;
+    align-items: flex-start;
+    padding: 50px 0;
+    background-color: #e6e6e6; /* Set the background color for the section */
+}
+
+.machine {
+    width: 300px; /* Set the width of the image */
+    height: auto;
+    margin-right: 50px; /* Add more space between the image and the text */
+}
+
+.about-section-2 {
+    flex: 1;
+}
+
+.intro-text-2 {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.favorite-quotes-2 {
+    margin-top: 20px;
+}
+
+.favorite-quotes-2 h5 {
+    margin-bottom: 10px;
+}
+
+.favorite-quotes-2 ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.about-section {
+    flex: 1;
+    order: -1; /* Make sure the text content is placed before the image */
+    text-align: left; /* Align the text to the left side */
+    padding: 0 20px; /* Add some horizontal padding to the text content */
+}
+
+h1 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.book-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+img.richdad {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+
+img.atomic {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#Book-Summary {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.coffee {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.book-notes {
+    display: flex;
+    padding: 50px 0;
+    background-color: #e6e6e6;
+}
+
+.book-image {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.book-image img {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+.about-section {
+    flex: 1;
+    text-align: left;
+}
+
+.favorite-quotes {
+    margin-top: 20px;
+}
+
+.favorite-quotes h5 {
+    margin-bottom: 10px;
+}
+
+.favorite-quotes ul {
+    padding-left: 20px;
+}
+
+.book-notes {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-image {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.book-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-section {
+    flex: 2;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.favorite-quotes {
+    margin-top: 20px;
+}
+
+.favorite-quotes h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.favorite-quotes ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.favorite-quotes ul li {
+    margin-bottom: 10px;
+}
+
+img.atomic {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#footer {
+    background: #f7f8f9;
+    color: #45505b;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  #footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  #footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links {
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #0563bb;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .social-links a:hover {
+    background: #0678e3;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #footer .copyright {
+    margin: 0 0 5px 0;
+  }
+  
+  #footer .credits {
+    font-size: 13px;
+  }
+
+  .social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .social-links a:hover {
+    background-color: #fff;
+    color: #333;
+  }

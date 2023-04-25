@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 200px; /* Adjust this value to set the desired width */
+    height: auto; /* This will maintain the aspect ratio of the image */
+  }
+  
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.about-section {
+    text-align: center;
+}
+
+.about-heading {
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    color: #555;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(211, 211, 211, 0.2); /* lightish background color */
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Profile {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+.whoami-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f8f9; /* Light background color */
+}
+
+.whoami-heading {
+    margin-bottom: 20px;
+    font-size: 32px; /* Larger font size for heading */
+    color: #0563bb; /* Change heading color */
+    text-transform: uppercase; /* Make heading uppercase */
+    font-weight: bold;
+}
+
+.whoami-content {
+    padding: 20px;
+    font-size: 18px; /* Adjust font size */
+    line-height: 30px; /* Adjust line-height */
+    color: #45505b; /* Change text color */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.part {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+    margin-top: 20px; /* Add some space above the image */
+}
+
+.quick-facts-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f8f9; /* Light background color */
+}
+
+.quick-facts-heading {
+    margin-bottom: 20px;
+    font-size: 32px; /* Larger font size for heading */
+    color: #0563bb; /* Change heading color */
+    text-transform: uppercase; /* Make heading uppercase */
+    font-weight: bold;
+}
+
+.facts-list {
+    text-align: left;
+    display: inline-block;
+    font-size: 18px; /* Adjust font size */
+    line-height: 30px; /* Adjust line-height */
+    color: #45505b; /* Change text color */
+    list-style-type: disc; /* Use bullet points */
+    padding-left: 40px; /* Add some space on the left */
+    list-style-position: inside; /* Add this line to show bullet points */
+}
+
+
+.facts-list li {
+    margin-bottom: 15px;
+}
+
+
+#footer {
+    background: #f7f8f9;
+    color: #45505b;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  #footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  #footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links {
+    margin: 0 0 40px 0;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #0563bb;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .social-links a:hover {
+    background: #0678e3;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #footer .copyright {
+    margin: 0 0 5px 0;
+  }
+  
+  #footer .credits {
+    font-size: 13px;
+  }
+
+  .social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .social-links a:hover {
+    background-color: #fff;
+    color: #333;
+  }
